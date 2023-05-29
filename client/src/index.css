@@ -1,0 +1,55 @@
+body {
+    background-image: url('./assets/background.png');
+}
+
+s {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    position: absolute;
+    width: 799px;
+    height: 708px;
+    left: 144px;
+    top: 72px;
+
+
+}
+
+s:after {
+    content: '';
+    display: block;
+    color: #ff0000;
+    width: 81%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    border-bottom: 3px solid;
+    font-weight: bold;
+}
+
+.hr {
+    right: 3.5%;
+    left: auto;
+    width: 90%;
+}
+
+.gradient {
+    background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
